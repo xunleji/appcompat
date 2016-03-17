@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/abc_ic_search"
+        android:title="搜索"
+        test:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/app_panel_add_icon"
+        android:title="添加"
+        test:showAsAction="ifRoom"/>
+
+</menu>
